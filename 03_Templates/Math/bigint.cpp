@@ -1,13 +1,15 @@
 #include<bits/stdc++.h>
-typedef long long ll;
 using namespace std;
-const int MAXN = 1e2 + 5;
+typedef long long ll;
+
+const int MAXN = 5e3 + 5;
 
 struct Bigint{
-    int d[MAXN],cnt = 0;
-    
-    Bigint() : d(),cnt(0) {}
-
+    int d[MAXN],cnt;
+    Bigint(){
+        memset(d,0,sizeof(d));
+        cnt = 0;
+    }
     int len(){
         if(cnt != 0) return cnt;
         else{
@@ -20,18 +22,21 @@ struct Bigint{
         }
         return 0;
     }
-
     Bigint operator+(const Bigint& a)const;
-    Bigint operator*(const Bigint& a)const;
+    Bigint operator*(const Bigint& b)const;
     Bigint operator*(const int a)const;
+    Bigint operator/(const ll a)const;
 };
 
 Bigint Bigint::operator+(const Bigint& a)const{
     Bigint ans;
-    for(int i = 1; i <= max(a.cnt,cnt); i++){
-        ans.d[i] += d[i] + a.d[i];
-        ans.d[i + 1] += ans.d[i] / 10;
-        ans.d[i] = ans.d[i] % 10;
+    int len = max(a.cnt,cnt);
+    for(int i = 1; i <= len; i++){
+        int temp = a.d[i] + d[i] + ans.d[i];
+        if(temp >= 10){
+            ans.d[i + 1]++;
+        }
+        ans.d[i] = temp % 10;
     }
     ans.len();
     return ans;
@@ -39,14 +44,16 @@ Bigint Bigint::operator+(const Bigint& a)const{
 
 Bigint Bigint::operator*(const Bigint& a)const{
     Bigint ans;
-    for(int i = 1; i <= MAXN - 1; i++){
+    for(int i = 1; i < MAXN; i++){
         for(int j = 1; j <= i; j++){
+            // cout << i << ' '<< j<< ' ';
             ans.d[i - 1] += a.d[j] * d[i - j];
         }
     }
     for(int i = 1; i < MAXN - 1; i++){
         ans.d[i + 1] += ans.d[i] / 10;
         ans.d[i] %= 10;
+        // cout << 1;
     }
     ans.len();
     return ans;
@@ -54,16 +61,33 @@ Bigint Bigint::operator*(const Bigint& a)const{
 
 Bigint Bigint::operator*(const int a)const{
     Bigint ans;
-	for(int i = 1; i <= cnt; i++){
-		ans.d[i] += a * d[i];
-	}
-    for(int i = 1; i < MAXN - 1; i++){
-        ans.d[i + 1] += ans.d[i] / 10;
-        ans.d[i] %= 10;
+    for(int i = 1; i <= cnt; i++){
+        int temp = d[i] * a + ans.d[i];
+        ans.d[i] = temp % 10;
+        ans.d[i + 1] = temp / 10;
+    }
+    for(int i = cnt + 1; i <= MAXN; i++){
+        int temp = ans.d[i];
+        ans.d[i] = temp % 10;
+        ans.d[i + 1] = temp / 10;
     }
     ans.len();
     return ans;
 }
+
+Bigint Bigint::operator/(const ll a)const{
+    Bigint ans;
+    ll temp = 0;
+    for(int i = cnt; i >= 1; i--){
+        temp *= 10;
+        temp += d[i];
+        ans.d[i] = temp / a;
+        temp -= ans.d[i] * a;
+    }
+    ans.len();
+    return ans;
+}
+
 
 Bigint read(){
     Bigint ans;
@@ -76,7 +100,7 @@ Bigint read(){
     return ans;
 }
 
-void print(const Bigint& a){
+void print(Bigint a){
     if(a.cnt == 0){
         cout << '0';
         return;
@@ -86,23 +110,17 @@ void print(const Bigint& a){
     }
 }
 
-Bigint a[55],ans;
-int n;
+Bigint a,b;
 
-//30414093201713378043612608166064768844377641568960512000000000000
+ll c;
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
-	
-    cin >> n;
-	a[1].d[1] = 1, a[1].cnt = 1;
-	ans = ans + a[1];
-	for(int i = 2; i <= n; i++){
-		a[i] = a[i - 1] * i;
-		ans = ans + a[i];
-	}
-	print(ans);
-    
-    return 0;
+    a = read();
+    // b = read();
+    // cin >> b;
+    cin >> c;
+    print(a / c); 
+   return 0;
 }
