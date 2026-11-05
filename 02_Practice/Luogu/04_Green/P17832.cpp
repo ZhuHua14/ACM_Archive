@@ -57,7 +57,7 @@ void init(){
     for (int k = 1; k <= n; k++) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if(t1[i][k] == INF && t1[i][k] == INF) continue;
+                if(t1[i][k] == INF || t1[i][k] == INF) continue;
                 t1[i][j] = min(t1[i][j], t1[i][k] + t1[k][j]);
             }
         }
