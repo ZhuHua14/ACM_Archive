@@ -1,3 +1,4 @@
+// P1314 [NOIP 2011 提高组] 聪明的质监员
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;

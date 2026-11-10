@@ -1,3 +1,4 @@
+// P2661 [NOIP 2015 提高组] 信息传递
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 2e5 + 5;

@@ -1,3 +1,4 @@
+// P2678 [NOIP 2015 提高组] 跳石头
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 5e4 + 5;

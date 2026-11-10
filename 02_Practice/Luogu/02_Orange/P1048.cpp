@@ -1,3 +1,4 @@
+// P1048 [NOIP 2005 普及组] 采药
 #include<bits/stdc++.h>
 using namespace std;
 

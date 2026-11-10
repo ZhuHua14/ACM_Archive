@@ -1,3 +1,4 @@
+// P1004 [NOIP 2000 提高组] 方格取数
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

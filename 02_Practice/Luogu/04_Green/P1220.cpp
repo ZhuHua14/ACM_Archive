@@ -1,3 +1,4 @@
+// P1220 关路灯
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

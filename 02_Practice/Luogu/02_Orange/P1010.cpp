@@ -1,3 +1,4 @@
+// P1010 [NOIP 1998 普及组] 幂次方
 #include<bits/stdc++.h>
 //#include<windows.h>
 using namespace std;

@@ -1,3 +1,4 @@
+// P1031 [NOIP 2002 提高组] 均分纸牌
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e3 + 4;

@@ -1,3 +1,4 @@
+// P1094 [NOIP 2007 普及组] 纪念品分组
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 3e4 + 5;

@@ -1,3 +1,4 @@
+// P1156 [USACO01OPEN] 垃圾陷阱
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

@@ -1,3 +1,4 @@
+// P1019 [NOIP 2000 提高组] 单词接龙（疑似错题）
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 25;

@@ -1,3 +1,4 @@
+// P5266 【深基17.例6】学籍管理
 #include<bits/stdc++.h>
 using namespace std;
 

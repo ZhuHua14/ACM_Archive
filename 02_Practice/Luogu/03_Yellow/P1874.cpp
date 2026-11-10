@@ -1,3 +1,4 @@
+// P1874 快速求和
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

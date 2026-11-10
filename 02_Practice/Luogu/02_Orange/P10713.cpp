@@ -1,3 +1,4 @@
+// P10713 【MX-X1-T1】「KDOI-05」简单的无限网格问题
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

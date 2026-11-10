@@ -1,3 +1,4 @@
+// P4387 【深基15.习9】验证栈序列
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e5 + 5;

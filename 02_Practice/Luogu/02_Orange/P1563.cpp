@@ -1,3 +1,4 @@
+// P1563 [NOIP 2016 提高组] 玩具谜题
 #include<bits/stdc++.h>
 using namespace std;
 int n,m;

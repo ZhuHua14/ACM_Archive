@@ -1,3 +1,4 @@
+// P2630 图像变换
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 10;

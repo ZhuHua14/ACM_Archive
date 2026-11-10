@@ -1,3 +1,4 @@
+// P4170 [CQOI2007] 涂色
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 55;

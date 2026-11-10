@@ -1,3 +1,4 @@
+// P1880 [NOI1995] 石子合并
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

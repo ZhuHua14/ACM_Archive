@@ -1,3 +1,4 @@
+// P17831 [CSP-S 2026] 能量水晶
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

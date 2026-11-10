@@ -1,3 +1,4 @@
+// P2068 统计和
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long

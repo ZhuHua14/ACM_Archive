@@ -1,3 +1,4 @@
+// P1605 迷宫
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 10;

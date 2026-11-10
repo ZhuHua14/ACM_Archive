@@ -1,3 +1,4 @@
+// P5020 [NOIP 2018 提高组] 货币系统
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

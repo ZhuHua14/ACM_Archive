@@ -1,3 +1,4 @@
+// P1996 约瑟夫问题
 #include<bits/stdc++.h>
 using namespace std;
 

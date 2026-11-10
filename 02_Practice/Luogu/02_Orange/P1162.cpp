@@ -1,3 +1,4 @@
+// P1162 填涂颜色
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 35;

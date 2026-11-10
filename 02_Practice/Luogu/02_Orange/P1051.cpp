@@ -1,3 +1,4 @@
+// P1051 [NOIP 2005 提高组] 谁拿了最多奖学金
 #include<bits/stdc++.h>
 using namespace std;
 

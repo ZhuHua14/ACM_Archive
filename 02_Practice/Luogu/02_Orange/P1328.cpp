@@ -1,3 +1,4 @@
+// P1328 [NOIP 2014 提高组] 生活大爆炸版石头剪刀布
 #include<bits/stdc++.h>
 using namespace std;
 int ar[210],br[210],n,at,bt,ascore,bscore;

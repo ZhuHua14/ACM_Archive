@@ -1,3 +1,4 @@
+// P1216 [IOI 1994 / USACO1.5] 数字三角形 Number Triangles
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e3 + 5;

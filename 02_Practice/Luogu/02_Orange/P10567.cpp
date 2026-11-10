@@ -1,3 +1,4 @@
+// P10567 「Daily OI Round 4」Square
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

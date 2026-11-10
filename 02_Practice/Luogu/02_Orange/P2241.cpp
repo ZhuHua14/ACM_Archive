@@ -1,3 +1,4 @@
+// P2241 统计方形（数据加强版）
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,4 @@
+// P2196 [NOIP 1996 提高组] 挖地雷
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 25;

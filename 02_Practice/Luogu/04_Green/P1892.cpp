@@ -1,3 +1,4 @@
+// P1892 [BalticOI 2003] 团伙 (Day 2)
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e3 + 5;

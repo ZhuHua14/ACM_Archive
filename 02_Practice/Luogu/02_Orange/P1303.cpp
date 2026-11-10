@@ -1,3 +1,4 @@
+// P1303 A*B Problem
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

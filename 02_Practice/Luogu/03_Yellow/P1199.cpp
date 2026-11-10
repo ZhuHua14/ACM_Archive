@@ -1,3 +1,4 @@
+// P1199 [NOIP 2010 普及组] 三国游戏
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 505;

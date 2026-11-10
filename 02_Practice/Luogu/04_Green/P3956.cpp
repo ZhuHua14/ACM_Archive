@@ -1,3 +1,4 @@
+// P3956 [NOIP 2017 普及组] 棋盘
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXM = 105;

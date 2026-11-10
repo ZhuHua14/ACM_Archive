@@ -1,3 +1,4 @@
+// P1091 [NOIP 2004 提高组] 合唱队形
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

@@ -1,3 +1,4 @@
+// P1355 神秘大三角
 #include<bits/stdc++.h>
 using namespace std;
 

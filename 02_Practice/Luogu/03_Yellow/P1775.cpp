@@ -1,3 +1,4 @@
+// P1775 石子合并（弱化版）
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 305;

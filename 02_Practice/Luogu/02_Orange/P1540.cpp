@@ -1,3 +1,4 @@
+// P1540 [NOIP 2010 提高组] 机器翻译
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1005;

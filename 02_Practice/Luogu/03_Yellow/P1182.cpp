@@ -1,3 +1,4 @@
+// P1182 数列分段 Section II
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;

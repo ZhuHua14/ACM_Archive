@@ -1,3 +1,4 @@
+// P2880 [USACO07JAN] Balanced Lineup G
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e6 + 5;

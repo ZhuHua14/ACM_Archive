@@ -1,3 +1,4 @@
+// P9752 [CSP-S 2023] 密码锁
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

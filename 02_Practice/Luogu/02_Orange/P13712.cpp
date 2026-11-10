@@ -1,3 +1,4 @@
+// P13712 淘汰（Easy ver.）
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,4 @@
+// P1347 [ECNA 2001] 排序
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 40;

@@ -1,3 +1,4 @@
+// P1219 [USACO1.5] 八皇后 Checker Challenge
 #include<bits/stdc++.h>
 const int MAXN = 100;
 using namespace std;

@@ -1,3 +1,4 @@
+// P1003 [NOIP 2011 提高组] 铺地毯
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN=1e5+5;

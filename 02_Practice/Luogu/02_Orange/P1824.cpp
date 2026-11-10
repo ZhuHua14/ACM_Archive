@@ -1,3 +1,4 @@
+// P1824 [USACO05FEB] 进击的奶牛 Aggressive Cows G
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e5 + 5;

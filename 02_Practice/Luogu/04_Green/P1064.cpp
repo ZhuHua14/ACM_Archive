@@ -1,3 +1,4 @@
+// P1064 [NOIP 2006 提高组] 金明的预算方案
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 65;

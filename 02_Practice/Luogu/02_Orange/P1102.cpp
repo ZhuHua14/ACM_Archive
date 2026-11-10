@@ -1,3 +1,4 @@
+// P1102 A-B 数对
 #include<bits/stdc++.h>
 #define ll long long
 const int MAXN = 2e5 + 5;

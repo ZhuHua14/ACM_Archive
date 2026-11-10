@@ -1,3 +1,4 @@
+// P1181 数列分段 Section I
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e6 + 5;

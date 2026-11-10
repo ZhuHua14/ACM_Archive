@@ -1,3 +1,4 @@
+// P1196 [NOI2002] 银河英雄传说
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 3e4 + 5;

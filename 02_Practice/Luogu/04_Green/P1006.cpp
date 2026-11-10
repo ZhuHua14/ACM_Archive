@@ -1,3 +1,4 @@
+// P1006 [NOIP 2008 提高组] 传纸条
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;

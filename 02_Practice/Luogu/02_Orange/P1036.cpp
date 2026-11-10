@@ -1,3 +1,4 @@
+// P1036 [NOIP 2002 普及组] 选数
 #include <bits/stdc++.h>
 using namespace std;
 int n,k,x[25],ans;

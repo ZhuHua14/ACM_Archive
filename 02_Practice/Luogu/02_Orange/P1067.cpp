@@ -1,3 +1,4 @@
+// P1067 [NOIP 2009 普及组] 多项式输出
 #include<bits/stdc++.h>
 using namespace std;
 int n,a[105];

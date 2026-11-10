@@ -1,3 +1,4 @@
+// P1077 [NOIP 2012 普及组] 摆花
 #include<bits/stdc++.h>
 using namespace std;
 const int MOD = 1e6 + 7;

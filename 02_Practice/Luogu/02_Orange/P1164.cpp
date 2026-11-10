@@ -1,3 +1,4 @@
+// P1164 小 A 点菜
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

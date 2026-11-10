@@ -1,3 +1,4 @@
+// P1009 [NOIP 1998 普及组] 阶乘之和
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

@@ -1,3 +1,4 @@
+// P8469 [Aya Round 1 D] 文文的数学游戏
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

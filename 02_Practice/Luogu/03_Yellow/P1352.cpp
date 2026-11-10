@@ -1,3 +1,4 @@
+// P1352 没有上司的舞会
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 6e3 + 5;

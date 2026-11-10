@@ -1,3 +1,4 @@
+// P14361 [CSP-S 2025] 社团招新
 //Author:ZhuHua14(luogu)
 #include<bits/stdc++.h>
 using namespace std;

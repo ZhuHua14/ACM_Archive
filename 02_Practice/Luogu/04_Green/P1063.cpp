@@ -1,3 +1,4 @@
+// P1063 [NOIP 2006 提高组] 能量项链
 #include<bits/stdc++.h>
 using namespace std;
 struct ball{

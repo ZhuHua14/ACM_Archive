@@ -1,3 +1,4 @@
+// P3047 [USACO12FEB] Nearby Cows G
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

@@ -1,3 +1,4 @@
+// P1990 覆盖墙壁
 #include <bits/stdc++.h>
 const int MAXN = 1000005;
 const int MOD =10000;

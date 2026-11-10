@@ -1,3 +1,4 @@
+// P10024 「HCOI-R1」报名人数
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long

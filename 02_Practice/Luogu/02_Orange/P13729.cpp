@@ -1,3 +1,4 @@
+// P13729 【MGVOI R1-A】超级奇数（odd）
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

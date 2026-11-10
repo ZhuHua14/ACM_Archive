@@ -1,3 +1,4 @@
+// P1241 括号序列
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 210;

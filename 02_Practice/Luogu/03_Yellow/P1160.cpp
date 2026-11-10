@@ -1,3 +1,4 @@
+// P1160 队列安排
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e5 + 5;

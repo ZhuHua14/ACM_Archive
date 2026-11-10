@@ -1,3 +1,4 @@
+// P11019 「LAOI-6」[太阳]] 请使用最新版手机 QQ 体验新功能
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

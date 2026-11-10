@@ -1,3 +1,4 @@
+// P1056 [NOIP 2008 普及组] 排座椅
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e3 + 5;

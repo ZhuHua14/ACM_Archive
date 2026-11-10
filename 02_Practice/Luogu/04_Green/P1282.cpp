@@ -1,3 +1,4 @@
+// P1282 [CEOI 1997] 多米诺骨牌
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

@@ -1,3 +1,4 @@
+// P1060 [NOIP 2006 普及组] 开心的金明
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 30;

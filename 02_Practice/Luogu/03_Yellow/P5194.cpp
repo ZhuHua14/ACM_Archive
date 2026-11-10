@@ -1,3 +1,4 @@
+// P5194 [USACO05DEC] Scales S
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long

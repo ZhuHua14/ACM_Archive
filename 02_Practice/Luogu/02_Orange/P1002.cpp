@@ -1,3 +1,4 @@
+// P1002 [NOIP 2002 普及组] 过河卒
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;

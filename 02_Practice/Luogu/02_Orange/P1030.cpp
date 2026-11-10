@@ -1,3 +1,4 @@
+// P1030 [NOIP 2001 普及组] 求先序排列
 #include<bits/stdc++.h>
 using namespace std;
 

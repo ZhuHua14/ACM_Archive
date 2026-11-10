@@ -1,3 +1,4 @@
+// P5710 【深基3.例2】数的性质
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

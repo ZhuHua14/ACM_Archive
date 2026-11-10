@@ -1,3 +1,4 @@
+// P2249 【深基13.例1】查找
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e6 + 5;

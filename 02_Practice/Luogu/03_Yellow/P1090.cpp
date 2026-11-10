@@ -1,3 +1,4 @@
+// P1090 [NOIP 2004 提高组] 合并果子
 #include<bits/stdc++.h>
 using namespace std;
 int n,shuru;

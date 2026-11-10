@@ -1,3 +1,4 @@
+// P2240 【深基12.例1】部分背包问题
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

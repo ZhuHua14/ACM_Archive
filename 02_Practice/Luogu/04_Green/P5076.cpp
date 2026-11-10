@@ -1,3 +1,4 @@
+// P5076 【深基16.例7】普通二叉树（简化版）
 #include<bits/stdc++.h>
 using namespace std;
 const int INF = INT_MAX;

@@ -1,3 +1,4 @@
+// P2415 集合求和
 #include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;

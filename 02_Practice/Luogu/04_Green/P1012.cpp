@@ -1,3 +1,4 @@
+// P1012 [NOIP 1998 提高组] 拼数
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 25;

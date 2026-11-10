@@ -1,3 +1,4 @@
+// P1140 相似基因
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;

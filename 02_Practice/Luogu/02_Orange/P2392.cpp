@@ -1,3 +1,4 @@
+// P2392 kkksc03 考前临时抱佛脚
 #include<bits/stdc++.h>
 using namespace std;
 int nowans,newans,ans,nowsum,nowcnt,s[4],a[25],b[25],c[25],d[25];

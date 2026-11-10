@@ -1,3 +1,4 @@
+// P1087 [NOIP 2004 普及组] FBI 树
 #include<bits/stdc++.h>
 using namespace std;
 int pow2[12] = {1,2,4,8,16,32,64,128,256,512,1024,2048};

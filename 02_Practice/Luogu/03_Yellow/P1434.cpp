@@ -1,3 +1,4 @@
+// P1434 [SHOI2002] 滑雪
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;

@@ -1,3 +1,4 @@
+// P10252 线性变换
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long

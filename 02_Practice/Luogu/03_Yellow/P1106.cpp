@@ -1,3 +1,4 @@
+// P1106 删数问题
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 255;

@@ -1,3 +1,4 @@
+// P1330 封锁阳光大学
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 1e4 + 5;
