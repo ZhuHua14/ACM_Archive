@@ -13,6 +13,8 @@ typedef long long ll;
          暴力的维护每个数字反号时的最大最小并统计答案;
 */
 
+//test
+
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
