@@ -8,7 +8,6 @@ class Queue{
     private:
 
     int q[MAXN], top = 1, back = 0, sz = 0;
-    int n, m;
     
     public:
     
