@@ -14,35 +14,27 @@ int main() {
         cin >> s[i];
         s[i] = " " + s[i];
     }
-    int ans = 1e9, tmp = 0;
+    int ans = 1e9, tmp1 = 0, tmp2 = 0;
     for (int i = 1; i <= 5; i++) {
-        tmp = 0;
+        tmp1 = 0;
+        tmp2 = 0;
         for (int j = 1; j <= 5; j++) {
             if (s[i][j] == 'o')
-                tmp++;
-        }
-        ans = min(5 - tmp, ans);
-    }
-    for (int i = 1; i <= 5; i++) {
-        tmp = 0;
-        for (int j = 1; j <= 5; j++) {
+                tmp1++;
             if (s[j][i] == 'o')
-                tmp++;
+                tmp2++;
         }
-        ans = min(5 - tmp, ans);
+        ans = min(min(5 - tmp1, 5 - tmp2), ans);
     }
-    tmp = 0;
+    tmp1 = 0;
+    tmp2 = 0;
     for (int i = 1; i <= 5; i++) {
         if (s[i][i] == 'o')
-            tmp++;
+            tmp1++;
+        if (s[i][5 - i] == 'o')
+            tmp2++;
         // cerr << i << ' ' << s[i][i] << ' ' << tmp << '\n';
-        ans = min(5 - tmp, ans);
-    }
-    tmp = 0;
-    for (int i = 1; i <= 5; i++) {
-        if (s[i][5 - i + 1] == 'o')
-            tmp++;
-        ans = min(5 - tmp, ans);
+        ans = min(min(5 - tmp1, 5 - tmp2), ans);
     }
     cout << ans;
     return 0;
